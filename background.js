@@ -8,12 +8,15 @@ const testData = {
     'Boundary Value': Number.MAX_SAFE_INTEGER,
     'Negative Boundary Value': Number.MIN_SAFE_INTEGER,
     'NaN': NaN,
+    'Infinity': Infinity,
+    'Negative Infinity': -Infinity,
     'Special Characters': 12345.6789,
-    'Long': 1234567890123456789012345678901234567890 ,
+    'Long': '1234567890123456789012345678901234567890',
     'Hindi': '१२३४५६७८९०',
     'Arabic': '١٢٣٤٥٦٧٨٩٠',
     'Chinese': '一二三四五六七八九〇',
-    'Japanese': '一二三四五六七八九〇',
+    'Japanese': '一二三四五六七八九〇'
+  },
   'String': {
     'Simple': 'John Doe',
     'Special Characters': 'José María',
@@ -67,10 +70,8 @@ const testData = {
     'Long': 'https://www.this-is-a-very-long-url-example.com/with/a/very/long/path/that/keeps/going/on/and/on'
   }
 };
-const additionalTestData = {
-  
-};
 
+const additionalTestData = {}; // Define additionalTestData
 Object.assign(testData, additionalTestData);
 // Create main menu
 chrome.runtime.onInstalled.addListener(() => {
