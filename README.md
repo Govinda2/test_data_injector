@@ -6,3 +6,5 @@ Context Menu Integration: Right-click on any input field to access the "Test Dat
 Variety of Test Data: Insert various types of test data, including numbers, strings, emails, and special characters.
 Category-Based Organization: Test data is organized into categories for easy access.
 Security Testing: Includes test data for common security vulnerabilities like SQL Injection, XSS, and Command Injection.
+
+icon by Aranagraphics.
